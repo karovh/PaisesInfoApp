@@ -6,6 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { PaisModule } from './pais/pais.module';
 import { SharedModule } from './shared/shared.module';
+import { PaisTablaComponent } from './pais/components/pais-tabla/pais-tabla.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { SharedModule } from './shared/shared.module';
     SharedModule,
     PaisModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
